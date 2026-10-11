@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED_SIX_CLASS_APPEARANCE_FIT_NOT_CLINICAL_VALIDATION",
+  "config_sha256": "5f31d0a39c7abf0adfb1e04b46e0829b3f89dff29f44b7779a7e1a2b91121283",
+  "training_rows": 4222,
+  "val_rows": 896,
+  "historical_source_VAL_metrics": {
+    "metrics/precision(B)": 0.5630444550622726,
+    "metrics/recall(B)": 0.525310791520039,
+    "metrics/mAP50(B)": 0.5365125114465076,
+    "metrics/mAP50-95(B)": 0.48958541162649283,
+    "fitness": 0.48958541162649283
+  },
+  "best_sha256": "34ce40cd05168ff0cd637ee2e9d0dc7657dee1da47321be3bc37ad60492818b4",
+  "patient_independent_validation": false,
+  "clinical_gold": false,
+  "new_cloud_metrics": null,
+  "source_report": "artifacts/models/tongueherb_v1/tongue/TRAIN_RESULT.json",
+  "no_payload_uploaded": true
+}

@@ -1,0 +1,11 @@
+test_SHA_and_missing_assets (test_contracts.Contracts.test_SHA_and_missing_assets) ... ok
+test_asset_path_escape (test_contracts.Contracts.test_asset_path_escape) ... ok
+test_paths (test_contracts.Contracts.test_paths) ... ok
+test_publish_scan_detects_credentials_without_outputting_values (test_contracts.Contracts.test_publish_scan_detects_credentials_without_outputting_values) ... ok
+test_yolo_dataset_no_download_or_escape (test_contracts.Contracts.test_yolo_dataset_no_download_or_escape) ... ok
+test_yolo_untrusted_SHA_rejected_before_deserialization (test_contracts.Contracts.test_yolo_untrusted_SHA_rejected_before_deserialization) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.130s
+
+OK

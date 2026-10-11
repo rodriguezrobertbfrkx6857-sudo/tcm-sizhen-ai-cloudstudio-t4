@@ -1,0 +1,16 @@
+{
+  "status": "SYNTHETIC_ENGINEERING_SMOKE_PASS",
+  "device": "cpu",
+  "synthetic_head_updates": 2,
+  "formal_training_updates": 0,
+  "loss": [
+    0.000291662581730634,
+    0.000291662581730634
+  ],
+  "elapsed_seconds": 0.892025699999067,
+  "checkpoint_SHA256": "e441f9e30b03cff8b328b76a5892f79f91c95b9b58cb1980390d9b5ce09ea73e",
+  "head_reload_equal": true,
+  "CUDA_verified": false,
+  "GPU_peak_allocated_GiB": null,
+  "clinical_metrics": null
+}

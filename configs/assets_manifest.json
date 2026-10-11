@@ -1,0 +1,51 @@
+{
+  "status": "WEIGHTS_REQUIRED_NOT_INCLUDED",
+  "assets": [
+    {
+      "id": "g1_checkpoint",
+      "destination": "g1/best.pt",
+      "bytes": 88320317,
+      "sha256": "b715351507ebc6a1000ed4551e02622f37b5e9cac18bce2af3313e17cb3923b3"
+    },
+    {
+      "id": "roi_checkpoint",
+      "destination": "roi/roi_selected.pt",
+      "bytes": 59759559,
+      "sha256": "68cd4aa8f3813ec306ad5e1d6c02b3077a1fe8f599401b5776e4c70d0184a32e"
+    },
+    {
+      "id": "dino_base",
+      "destination": "dino/model.safetensors",
+      "bytes": 88249960,
+      "sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1"
+    },
+    {
+      "id": "dino_config",
+      "destination": "dino/config.json",
+      "bytes": 547,
+      "sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d"
+    },
+    {
+      "id": "dino_processor",
+      "destination": "dino/preprocessor_config.json",
+      "bytes": 436,
+      "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    }
+  ],
+  "class_to_id": {
+    "white_coating": 0,
+    "yellow_coating": 1
+  },
+  "roi_training_code_sha256": "8f257b736c6418a1781014f6d6c3f76a235b6ae2e7857f0750d5ae5613ed2fe0",
+  "g1_checkpoint_metadata": {
+    "encoder": "A0",
+    "task": "publisher_coating_color_white_vs_yellow",
+    "base_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+    "config_sha256": "be55d77bead9da261511adc9b66e8df40553561aa2d6621a4de10990140af28d",
+    "script_sha256": "50695b02ed82f9acb949cd993ddd09cfd9ace9ce542b98f48e5abbc6e95d0aa1",
+    "global_manifest_sha256": "3e5487045ec9806b4a4495c2f25a560daa9c0d1eaec582b654129faebd569a72",
+    "license_partition": "RESEARCH_ONLY_NONCOMMERCIAL"
+  },
+  "no_clinical_validation": true,
+  "license": "EXISTING_SOURCE_RESEARCH_USE_ONLY_NO_NEW_DATA_AUTHORIZATION"
+}

@@ -1,0 +1,6 @@
+# Optional current six-class model; separate from the legacy component runtime.
+ultralytics==8.3.200
+scipy==1.15.3
+matplotlib==3.10.6
+opencv-python==4.11.0.86
+ultralytics-thop==2.0.17

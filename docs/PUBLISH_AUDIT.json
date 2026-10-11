@@ -1,0 +1,16 @@
+{
+  "status": "CODE_ALLOWLIST_AND_SECRET_PATTERN_SCAN_PASS",
+  "candidate_files": 33,
+  "candidate_bytes": 69981,
+  "excluded": [
+    "SSH_PRIVATE_KEYS",
+    "API_KEYS",
+    ".env",
+    "WEIGHTS",
+    "IMAGES",
+    "MEDICAL_RECORDS",
+    "CACHE",
+    "PRO_MAX_TRAINING"
+  ],
+  "scan_limitations": "Heuristic scan plus manually selected code-only inputs; not a universal PHI detector."
+}

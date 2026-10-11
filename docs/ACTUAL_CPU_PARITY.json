@@ -1,0 +1,12 @@
+{
+  "status": "ACTUAL_FROZEN_WEIGHT_CPU_BITWISE_PARITY_PASS",
+  "G1_max_absolute_difference": 0.0,
+  "ROI_max_absolute_difference": 0.0,
+  "input": "GENERATED_RGB_NO_PATIENT_OR_REAL_DATA",
+  "torch": "2.9.1+cpu",
+  "torchvision": "0.24.1+cpu",
+  "transformers": "5.16.1",
+  "CUDA_verified": false,
+  "cloud_connections": 0,
+  "formal_training_updates": 0
+}

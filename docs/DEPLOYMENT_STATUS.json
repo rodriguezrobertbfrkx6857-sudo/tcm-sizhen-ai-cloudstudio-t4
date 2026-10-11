@@ -1,0 +1,17 @@
+{
+  "status": "CODE_PREPARED_ACTUAL_CPU_PARITY_PASS_CLOUD_CUDA_PENDING",
+  "primary_model": "CURRENT_YOLO11N_SIX_CLASS",
+  "model_payload_uploaded": false,
+  "data_uploaded": false,
+  "cloud_instance_started": false,
+  "Pro_Max_training": false,
+  "G1_CPU_bitwise_parity": true,
+  "ROI_CPU_bitwise_parity": true,
+  "YOLO_CPU_raw_bitwise_parity": true,
+  "CPU_contract_tests": 6,
+  "synthetic_CPU_updates": 2,
+  "formal_updates": 0,
+  "T4_measured": false,
+  "GPU_memory": "ESTIMATE_ONLY_UNTIL_CLOUD_SMOKE",
+  "environment_pins": "TARGET_DRAFT_LOCAL_PROOF_HAS_DIFFERENT_VERSIONS"
+}

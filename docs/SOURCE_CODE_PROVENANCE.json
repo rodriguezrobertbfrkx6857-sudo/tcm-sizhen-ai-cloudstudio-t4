@@ -1,0 +1,9 @@
+{
+  "architecture_source_roi": "tools/v241/train_roi_v4.py",
+  "roi_source_sha256": "8f257b736c6418a1781014f6d6c3f76a235b6ae2e7857f0750d5ae5613ed2fe0",
+  "architecture_source_g1": "docs/reports/planning/v2_3/execution_runs/V2_3_20260929_062156Z/Phase15_InferenceContract/tongueai_v23_adapter.py",
+  "g1_source_sha256": "90155c33594d86d695232fe2b653320f674e1753c5082f845421e1e0370a9f78",
+  "change": "New path-independent component loader; original code is untouched; ROI pretrained initialization unnecessary after full strict checkpoint load.",
+  "original_global_config_sha256": "be55d77bead9da261511adc9b66e8df40553561aa2d6621a4de10990140af28d",
+  "original_global_manifest_sha256": "3e5487045ec9806b4a4495c2f25a560daa9c0d1eaec582b654129faebd569a72"
+}

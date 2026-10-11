@@ -1,0 +1,31 @@
+{
+  "device": "NVIDIA T4",
+  "memory_GB": 16,
+  "compute_capability": [
+    7,
+    5
+  ],
+  "inference_dtype": "float32",
+  "synthetic_probe_encoder_dtype": "float16",
+  "bf16": false,
+  "tf32": false,
+  "batch_size": 1,
+  "g1_size": 224,
+  "roi_size": 384,
+  "formal_training": false,
+  "synthetic_head_smoke_max_steps": 2,
+  "free_disk_GiB_required": 20,
+  "free_GPU_GiB_required": 6,
+  "Max_or_Pro_training": false,
+  "VRAM_estimate_only": {
+    "component_inference_GiB": [
+      2,
+      4
+    ],
+    "small_visual_training_GiB": [
+      4,
+      8
+    ]
+  },
+  "CUDA_verified": false
+}

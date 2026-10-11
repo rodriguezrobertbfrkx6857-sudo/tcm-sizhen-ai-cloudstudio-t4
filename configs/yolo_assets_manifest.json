@@ -1,0 +1,30 @@
+{
+  "status": "CURRENT_MODEL_PAYLOAD_NOT_INCLUDED",
+  "assets": [
+    {
+      "id": "yolo_six_class",
+      "destination": "yolo/best.pt",
+      "bytes": 5445914,
+      "sha256": "34ce40cd05168ff0cd637ee2e9d0dc7657dee1da47321be3bc37ad60492818b4"
+    }
+  ],
+  "model_class_names": {
+    "0": "healthy_tongue",
+    "1": "red_tongue",
+    "2": "thin_tongue",
+    "3": "white_coating",
+    "4": "yellow_coating",
+    "5": "black_coating"
+  },
+  "source_label_names": [
+    "健康舌",
+    "红舌",
+    "瘦舌",
+    "白苔舌",
+    "黄苔舌",
+    "黑苔舌"
+  ],
+  "patient_independent_validation": false,
+  "clinical_gold": false,
+  "checkpoint_trust": "PINNED_LOCAL_TRAINED_CHECKPOINT_WITH_PYTHON_MODULE_SERIALIZATION"
+}

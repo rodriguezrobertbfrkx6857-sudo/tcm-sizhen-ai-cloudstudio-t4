@@ -1,0 +1,23 @@
+{
+  "status": "ACTUAL_CURRENT_YOLO_CPU_RAW_OUTPUT_PARITY_PASS",
+  "ultralytics": "8.3.200",
+  "torch": "2.9.1+cpu",
+  "raw_shape": [
+    1,
+    10,
+    8400
+  ],
+  "max_absolute_difference": 0.0,
+  "input": "SYNTHETIC_RGB_NO_REAL_IMAGE",
+  "class_names": {
+    "0": "healthy_tongue",
+    "1": "red_tongue",
+    "2": "thin_tongue",
+    "3": "white_coating",
+    "4": "yellow_coating",
+    "5": "black_coating"
+  },
+  "CUDA_verified": false,
+  "new_optimizer_updates": 0,
+  "checkpoint_SHA256": "34ce40cd05168ff0cd637ee2e9d0dc7657dee1da47321be3bc37ad60492818b4"
+}

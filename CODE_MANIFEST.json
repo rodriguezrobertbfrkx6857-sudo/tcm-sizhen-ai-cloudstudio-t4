@@ -1,0 +1,167 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 170,
+    "SHA256": "ac8617106338cf73c3357d2978b2b76f59909f90516a6157c64511dfc0f51420"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2295,
+    "SHA256": "55ed404538656ebefb74ebf911a282c3576716af35f7c8db3c6d31bd439e829c"
+  },
+  {
+    "path": "requirements-cu126.txt",
+    "bytes": 84,
+    "SHA256": "d6f04478ef3b32fe77fdd8d204b304b11b06e1aba41f15aca414c57b9d32889c"
+  },
+  {
+    "path": "requirements-yolo.txt",
+    "bytes": 184,
+    "SHA256": "71d433a3c6681536fc28d9a148b642bda64e758d5f4c45bca535d3d5de23425d"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 138,
+    "SHA256": "ff08f2283f8174ce1589420fdad04b37ded1e2d9240f1420ed0af749aeeedc27"
+  },
+  {
+    "path": "cloudstudio_tongue/assets.py",
+    "bytes": 877,
+    "SHA256": "23cbc3a8b45911952fc46ae2ec7d3bbaf105f46b9dffd6b269e9c1eb74a21ff0"
+  },
+  {
+    "path": "cloudstudio_tongue/evaluate.py",
+    "bytes": 2791,
+    "SHA256": "efbc5df339bf5d458afa16932ba114796e8fe69d4b11160b0a03f9c8d460fad8"
+  },
+  {
+    "path": "cloudstudio_tongue/infer.py",
+    "bytes": 1020,
+    "SHA256": "3bf9131c9d428a592649840371648e4c8dbc0cb556142a2902561083072c1290"
+  },
+  {
+    "path": "cloudstudio_tongue/models.py",
+    "bytes": 1816,
+    "SHA256": "37a92359ce5b0fee8682798f72e4c5d2cfc0ca6484ebf770a5d6a77b1ce686f0"
+  },
+  {
+    "path": "cloudstudio_tongue/preflight.py",
+    "bytes": 2370,
+    "SHA256": "07fdc1f4f245173c284971884986b5f2822b7a77a04fc150fa34cbdda1fa14c4"
+  },
+  {
+    "path": "cloudstudio_tongue/runtime.py",
+    "bytes": 2692,
+    "SHA256": "b70a778dab65dc8589c9227e84e8eacd130c05c4fe7c1389abf17d1c93a4b8df"
+  },
+  {
+    "path": "cloudstudio_tongue/smoke.py",
+    "bytes": 3592,
+    "SHA256": "13aa64cd531a2419055a058d5ace6877c6ef37b6714383cb41be859ec0e04ace"
+  },
+  {
+    "path": "cloudstudio_tongue/yolo_evaluate.py",
+    "bytes": 3021,
+    "SHA256": "25d692e31106009f913322a1a9fd3bd3aac2ba8269defd4dc0f391569393921a"
+  },
+  {
+    "path": "cloudstudio_tongue/yolo_infer.py",
+    "bytes": 2855,
+    "SHA256": "eb55f62426edfd9db52cea16e001ce1a4eab27078955f9a793a3c8269ef3f210"
+  },
+  {
+    "path": "cloudstudio_tongue/__init__.py",
+    "bytes": 80,
+    "SHA256": "6d281ab0a5d484b3dd756b31f431b3a7f66c6d52def817406125e9bd5b31010a"
+  },
+  {
+    "path": "configs/assets_manifest.json",
+    "bytes": 1881,
+    "SHA256": "ee398190358fdaf99c92e32eeef929184306023aa474e1b479b037f91f53ec2f"
+  },
+  {
+    "path": "configs/t4_profile.json",
+    "bytes": 621,
+    "SHA256": "c958e25913db611bb6ef6e9d608888f7ed8fdd32538f9d3298beaf0ba9e92bb9"
+  },
+  {
+    "path": "configs/yolo_assets_manifest.json",
+    "bytes": 753,
+    "SHA256": "81e94e11e59149772ccda9b7cbaa48242498dccf0d00d8f05f6c5727909c7275"
+  },
+  {
+    "path": "docs/ACTUAL_CPU_PARITY.json",
+    "bytes": 367,
+    "SHA256": "cd55aaf4f1f6d49a594c988b58a9b0def28b747e71d054f8b54929b27852cbf9"
+  },
+  {
+    "path": "docs/ACTUAL_CPU_SYNTHETIC_SMOKE.json",
+    "bytes": 463,
+    "SHA256": "5068cec9f6e6c4c184838f86d3c8fc697702298c57106d7de142c4a97f0cb672"
+  },
+  {
+    "path": "docs/ACTUAL_CURRENT_YOLO_CPU_PARITY.json",
+    "bytes": 583,
+    "SHA256": "07afe5b80e0e8239946b1fbf1137591b60de78852e213b9bf33d2838931d0c2f"
+  },
+  {
+    "path": "docs/ASSET_TRANSFER_PLAN.md",
+    "bytes": 2492,
+    "SHA256": "f484454574a17a243251836a5c8618187028105fb50a5f1e47a0e77abc675434"
+  },
+  {
+    "path": "docs/CLOUD_STUDIO_DEPLOY.md",
+    "bytes": 6447,
+    "SHA256": "ec581bc9475103c393132d8f1f71b24a91e9e3cffe8db0d416f645950347ab49"
+  },
+  {
+    "path": "docs/CPU_CONTRACT_TEST_LOG.txt",
+    "bytes": 757,
+    "SHA256": "b084542e16edeb3b524c3cab6b44202018f2f470936386ab37b14a21c7a23e0b"
+  },
+  {
+    "path": "docs/CURRENT_YOLO_TRAINING_SUMMARY.json",
+    "bytes": 778,
+    "SHA256": "ed2245bf9d62d8bae59f6833cbafe8bcf4b47383d9403e1ba58894089114d860"
+  },
+  {
+    "path": "docs/DEPLOYMENT_STATUS.json",
+    "bytes": 596,
+    "SHA256": "233f5ae6f9e0aaa6299894f555d11ef0bb966e9a95f001919bbf02a298bfafc4"
+  },
+  {
+    "path": "docs/MIGRATION_REVIEW.md",
+    "bytes": 3843,
+    "SHA256": "ba8a17be601991e7beb0ea33c2aa69d6787be9481e4a86b77d5e1bffec26742c"
+  },
+  {
+    "path": "docs/PUBLISH_AUDIT.json",
+    "bytes": 401,
+    "SHA256": "a7ddd46fa63ed9df13c8c8cd04f0fd24c25a6c67b8f902211a42d867a7e06eaf"
+  },
+  {
+    "path": "docs/SOURCE_CODE_PROVENANCE.json",
+    "bytes": 762,
+    "SHA256": "1b0d7eb294d958386b60b9340dc2c8400fc5e17f4edf345fd85fc54e13127072"
+  },
+  {
+    "path": "reference/train_roi_legacy.py",
+    "bytes": 18599,
+    "SHA256": "8f257b736c6418a1781014f6d6c3f76a235b6ae2e7857f0750d5ae5613ed2fe0"
+  },
+  {
+    "path": "scripts/audit_package.py",
+    "bytes": 2924,
+    "SHA256": "1b9e35c978518c8bc54e728cb3cbed6e1daee0dc5cf67c1368f73cb2873572d5"
+  },
+  {
+    "path": "scripts/bootstrap.sh",
+    "bytes": 606,
+    "SHA256": "0f94265484ac56c7ec03bf1cb260ecc4273e49ba0e4ca93f19f68333aed3a511"
+  },
+  {
+    "path": "tests/test_contracts.py",
+    "bytes": 3123,
+    "SHA256": "ca12aa20152fe1a076a509eb9d27551d71a9ed1cef17c8adabf92235aa3cd869"
+  }
+]
