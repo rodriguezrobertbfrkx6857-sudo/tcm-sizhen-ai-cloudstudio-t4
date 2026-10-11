@@ -16,8 +16,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 6536,
-    "SHA256": "4a8212ed8c4821934d498254229a8853e56dd5c6715e0e4684523eb88160a6e5"
+    "bytes": 6872,
+    "SHA256": "7fb6ced95d022218b425be3e823604a08da51becce5d1e1c13d8bb2dc88b5755"
   },
   {
     "path": "cloudstudio_tongue/__init__.py",
@@ -438,5 +438,50 @@
     "path": "tests/test_dual_gpu_safety.py",
     "bytes": 5884,
     "SHA256": "f259e3b39eb4a10fca65c202873fa0fb3f365b14431cf14972348a9c342fe823"
+  },
+  {
+    "path": "configs/pro_revision03_data_manifest.json",
+    "bytes": 11536,
+    "SHA256": "fd04f31d3a1acb9f306d5f5c77bd66d66acc8b5c77d190d7664c29c03078e9c8"
+  },
+  {
+    "path": "configs/requirements-pro.txt",
+    "bytes": 145,
+    "SHA256": "8175b781c826872c193f92db9999b2833917686aa73b9b2f868a5203136fd2a9"
+  },
+  {
+    "path": "docs/AMD_PRO_TRAINING.md",
+    "bytes": 7971,
+    "SHA256": "9ea0a809c8c33564619e82304aedf627d92aa88f9dd45415a1f29b5feed451a0"
+  },
+  {
+    "path": "qiora_rocm/dev_eval.py",
+    "bytes": 12621,
+    "SHA256": "f2482f4e18bc4f5b13918eb9162d9a10a54e831290729ba48d3c015d176edccf"
+  },
+  {
+    "path": "qiora_rocm/restore_model.py",
+    "bytes": 2470,
+    "SHA256": "3fb4dad5f557d1953fb41f05ad503d09e44f78f310cf119efc9abc7295fa19fd"
+  },
+  {
+    "path": "qiora_rocm/train.py",
+    "bytes": 13499,
+    "SHA256": "ea8414a8c07cbe8e7af5362711cb2a05754a0fe1f100b9e80556b3bdacbacae2"
+  },
+  {
+    "path": "qiora_rocm/training_data.py",
+    "bytes": 5067,
+    "SHA256": "85a81d0b9f8a53cb61c5538cadf23d83982bdd6b7f6d54d31dc6ce8e41f77fec"
+  },
+  {
+    "path": "qiora_rocm/training_state.py",
+    "bytes": 6960,
+    "SHA256": "7de99d87f0b85d7437ed2693601e8081916feba1e9725f09a7b9f4e3dd69371b"
+  },
+  {
+    "path": "tests/test_pro_training.py",
+    "bytes": 7536,
+    "SHA256": "4108cbc4b01267afb8e60a553d2a2906af89de29e1ec7fa0108cf79e30a82b37"
   }
 ]

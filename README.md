@@ -2,7 +2,11 @@
 
 本分支准备在 AMD 上完成舌象视觉、Qiora 语言模型可行性、评测与备份。腾讯云 T4 保留为独立备用分支，不要求两云同时运行。
 
-**状态：CLOUD_GPU_PREFLIGHT_REQUIRES_USER_ACTION。新 AMD 分支仅在 Windows 准备，尚未批准推送；云端未执行、无新优化器更新，Pro未通过初版验收。**
+**状态：Pro ROCm 训练后端已加入；本次在 Windows 验证，未执行新的 AMD 8B 训练。用户已报告母体 BF16 云端推理成功，Pro 尚未验收。**
+
+- [Pro 8B 训练、配对 DEV、恢复命令](docs/AMD_PRO_TRAINING.md)
+
+Pro 的 `qiora_rocm.train` 使用私有 revision_03 数据及 SHA 清单，真实更新 Domain/Evidence；Router 暂不训练。数据、权重和凭据不在公开仓库。旧视觉说明与预检证据保留为历史范围，新训练范围以上述操作单为准。
 
 - [AMD 简洁云端操作单](docs/dual_gpu/CLOUD_QUICKSTART.md)
 - [真实状态、任务与语言模型可行性设计](docs/dual_gpu/AMD_TASK_PLAN.md)

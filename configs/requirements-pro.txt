@@ -1,0 +1,5 @@
+# CPU-tested userspace versions. Keep the preinstalled ROCm torch build.
+transformers==5.16.1
+peft==0.21.2
+accelerate==1.15.0
+safetensors==0.8.0
