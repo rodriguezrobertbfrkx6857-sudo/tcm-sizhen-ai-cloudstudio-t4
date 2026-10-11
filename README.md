@@ -84,6 +84,10 @@ python -m unittest discover -s tests -v
 
 本次没有正式视觉训练或 Pro/Max 训练，没有改动原模型与历史结果。两步合成标签更新只验证工程链路，不表示医学能力提升。本包的模型只提供来源受限的研究视觉输出，不能据此判断证候、疾病或处方。未知/未标注类别不转成阴性。
 
+## AMD Pro、Max 和 Vision 训练入口
+
+Pro 使用 [AMD_PRO_TRAINING.md](docs/AMD_PRO_TRAINING.md)。独立 Max reading 研究与六类视觉训练见 [AMD_MAX_VISION.md](docs/AMD_MAX_VISION.md)。新增模块不会修改 `qiora_rocm` 的训练代码身份；正在运行的任务保持固定版本。Max layer Router 目前未训练，Vision 与 Max 的真实 AMD 训练结果尚待云端验证。34项CPU工程测试已通过，不能代替真实GPU能力评测。
+
 ## 隐私、许可与贡献
 
 欢迎提交不含隐私的工程问题和复现记录。Issue、PR 和日志中请勿提交舌像、病例、身份信息、API Key、SSH 私钥或账户凭据。现有模型许可用途保持为非商业研究；公开迁移代码不会扩大底层数据或权重许可。仓库当前未授予统一开源许可，第三方内容分别遵循其原有许可，具体见 [LICENSE_NOTICE.md](LICENSE_NOTICE.md)。

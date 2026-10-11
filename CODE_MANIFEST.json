@@ -16,8 +16,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 6872,
-    "SHA256": "7fb6ced95d022218b425be3e823604a08da51becce5d1e1c13d8bb2dc88b5755"
+    "bytes": 7341,
+    "SHA256": "4c596783e8a1060f58279cf5ef3b915fa66e0d23a40ac40b7833b965ee4dd145"
   },
   {
     "path": "cloudstudio_tongue/__init__.py",
@@ -396,8 +396,8 @@
   },
   {
     "path": "scripts/audit_package.py",
-    "bytes": 2973,
-    "SHA256": "8eb0fafe23803cc3556f0bb75a15868ec30cb7fbf20d230d370df0946887a05e"
+    "bytes": 2990,
+    "SHA256": "a8eee62473f4f7b5e6dd87e6f00c27190d260238d83cd95da910a8c91101be2f"
   },
   {
     "path": "scripts/bootstrap.sh",
@@ -483,5 +483,60 @@
     "path": "tests/test_pro_training.py",
     "bytes": 7536,
     "SHA256": "4108cbc4b01267afb8e60a553d2a2906af89de29e1ec7fa0108cf79e30a82b37"
+  },
+  {
+    "path": "cloudstudio_tongue/prepare_training.py",
+    "bytes": 4839,
+    "SHA256": "08ece8023a956ddf98b6cf5133fa3a3ad1a42fadee8dfa75ea65e5d504a539dc"
+  },
+  {
+    "path": "cloudstudio_tongue/private_state.py",
+    "bytes": 839,
+    "SHA256": "313e58f910246eb1bab99bb7a5ace64758fa77f0ceee800a2d04c38c13330282"
+  },
+  {
+    "path": "cloudstudio_tongue/rocm_train.py",
+    "bytes": 8274,
+    "SHA256": "69988cb07265c971e9f9b763be59275508281d37825991b871867b158e57f4e3"
+  },
+  {
+    "path": "docs/AMD_MAX_VISION.md",
+    "bytes": 6173,
+    "SHA256": "5c386c34ce243d7052229fb2503211ed3a7119cf50d005835f6d72fc27330841"
+  },
+  {
+    "path": "qiora_max_rocm/__init__.py",
+    "bytes": 77,
+    "SHA256": "29ab9cfa123637d64726738e7e30aebe69ac15d8744958a20e6550d568cd845f"
+  },
+  {
+    "path": "qiora_max_rocm/data.py",
+    "bytes": 2613,
+    "SHA256": "412f155cc9a205fe1d7c336c5bfac97f6691a047172d351ceb786739efae06d8"
+  },
+  {
+    "path": "qiora_max_rocm/evaluate.py",
+    "bytes": 3536,
+    "SHA256": "418c50c8c35c037de0640f50be5a7216c0101cad490b93ceb765d97a6d657a0d"
+  },
+  {
+    "path": "qiora_max_rocm/model.py",
+    "bytes": 3707,
+    "SHA256": "6c44113e7e12e581d5f2b0f0b9249c56a97e5b1b6a9a3f39bdedfd03e16fdb6d"
+  },
+  {
+    "path": "qiora_max_rocm/restore_model.py",
+    "bytes": 2486,
+    "SHA256": "af3d4c71c109f432edfa73544fe54902fbd9f0e0d5a524c60bc42f99c696dfa0"
+  },
+  {
+    "path": "qiora_max_rocm/train.py",
+    "bytes": 7609,
+    "SHA256": "c7a8ab4dbd53a9a81cce3e6739837d451714fdf8ff34392875d45dda22ac8870"
+  },
+  {
+    "path": "tests/test_max_vision.py",
+    "bytes": 4063,
+    "SHA256": "c78d374a53586d82fd0eb63cec721f3021bee5b833eec56274216b1e2f282ea5"
   }
 ]
