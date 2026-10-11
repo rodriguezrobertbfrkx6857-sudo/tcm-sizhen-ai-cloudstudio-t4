@@ -1,0 +1,35 @@
+{
+  "status": "KNOWN_SHA_PAYLOAD_FIELDS_REVIEWED",
+  "items": [
+    {
+      "stage": "D_MAIN",
+      "SHA256": "41f7d89673c269900422e609aac2baca3b060f1f10b60b257b02e180e328a63d",
+      "steps": 64,
+      "offset": 256,
+      "tokens": 63183,
+      "phase": "T1",
+      "identity": "caf008730efd847c01bed8dddd1061c4ce03dedd869373b0d230bd802d803cbb",
+      "optimizer_state_entries": 72,
+      "data_order_length": 256,
+      "adapter_router_tensors": 220,
+      "cuda_rng_saved": true,
+      "measurement": "ACTUAL_TRUSTED_PAYLOAD_METADATA_NOT_FULL_RELOAD"
+    },
+    {
+      "stage": "E_MAIN",
+      "SHA256": "7c06511a882fa423e4057e8fda969940dbc84015814360a1f5ff61ceed80a733",
+      "steps": 64,
+      "offset": 256,
+      "tokens": 193251,
+      "phase": "T2",
+      "identity": "bce92b42a2eb6c19e0209e199f193ddfffe4b2fa04d65a81bd11e16f93b2592a",
+      "optimizer_state_entries": 72,
+      "data_order_length": 256,
+      "adapter_router_tensors": 220,
+      "cuda_rng_saved": true,
+      "measurement": "ACTUAL_TRUSTED_PAYLOAD_METADATA_NOT_FULL_RELOAD"
+    }
+  ],
+  "full_model_reloaded": false,
+  "new_updates": 0
+}

@@ -1,0 +1,34 @@
+{
+  "device": "cpu",
+  "torch": "2.9.1+cpu",
+  "hip": null,
+  "training": false,
+  "downloads": false,
+  "seed": 20261011,
+  "model_kind": "pinned_yolo_synthetic_only",
+  "synthetic_mean": 0.13007208704948425,
+  "synthetic_output": [
+    0.0,
+    0.0,
+    0.3242037892341614,
+    0.19608455896377563
+  ],
+  "synthetic_nms_selected_indices": [
+    0,
+    2
+  ],
+  "checkpoint_SHA256": "34ce40cd05168ff0cd637ee2e9d0dc7657dee1da47321be3bc37ad60492818b4",
+  "prediction_boxes": 0,
+  "input_size": 640,
+  "conf": 0.25,
+  "iou": 0.5,
+  "half": false,
+  "agnostic_nms": false,
+  "clinical_validation": false,
+  "status": "PASS",
+  "seconds": 2.230902100011008,
+  "network_socket_connections_blocked": true,
+  "optimizer_updates": 0,
+  "implementation_SHA256": "dd8639f04928d8892eb17ae5d462b13049ad0897505a46d042b67f7ee1dbad9d",
+  "measurement": "ACTUAL_CPU_VISUAL_NMS_YOLO_NOT_ROCM"
+}

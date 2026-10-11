@@ -1,0 +1,75 @@
+{
+  "platform": "Windows",
+  "python": "3.13.11",
+  "gpu_smoke_requested": false,
+  "no_training_performed": true,
+  "no_network_or_install": true,
+  "gpu_model_claim": "UNVERIFIED",
+  "persistent_mount_verified": false,
+  "persistent_across_restart": "NOT_TESTED",
+  "env_presence_only": {
+    "HIP_VISIBLE_DEVICES": false,
+    "ROCR_VISIBLE_DEVICES": false,
+    "CUDA_VISIBLE_DEVICES": false
+  },
+  "commands": {
+    "rocminfo": {
+      "status": "NOT_INSTALLED"
+    },
+    "rocm_smi": {
+      "status": "NOT_INSTALLED"
+    },
+    "other_compute": {
+      "status": "NOT_INSTALLED"
+    },
+    "mount": {
+      "status": "NOT_INSTALLED"
+    }
+  },
+  "gfx_targets": [],
+  "devices_access": {
+    "/dev/kfd": {
+      "exists": false,
+      "readable": false,
+      "writable": false
+    },
+    "/dev/dri": {
+      "exists": false,
+      "readable": false,
+      "writable": false
+    }
+  },
+  "workspace_disk": {
+    "exists": true,
+    "total_bytes": 484949618688,
+    "free_bytes": 68185563136,
+    "is_mount": false,
+    "writable_permission": true
+  },
+  "dependencies": {
+    "torch": "2.9.1+cpu",
+    "torchvision": "0.24.1+cpu",
+    "transformers": "5.16.1",
+    "peft": "0.21.2",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "ultralytics": "8.4.174"
+  },
+  "torch": {
+    "version": "2.9.1+cpu",
+    "hip": null,
+    "cuda_wheel_runtime": null,
+    "gpu_available": false,
+    "devices": []
+  },
+  "status": "READONLY_INVENTORY_NOT_ROCM",
+  "timestamp_utc": "2026-10-11T04:40:32.750411+00:00",
+  "run_id": "LOCAL_OR_CLOUD_PROBE_06bd660d9cbc409785db4ccbabee4e7f",
+  "optimizer_updates": 0,
+  "model_downloads": false,
+  "cloud_training": false,
+  "entrypoint_SHA256": "7283bfe5621e36523ff5e57c3fddbcc7d7e2bf54b88775d9677527e243f01518",
+  "report_writer_SHA256": "eda8d6ed2e5234f8267b2bc2ded2a60359c3bb0c51eb99356414ba056677a906",
+  "git_commit": "3374e235077b5f02d4de5bcb1c2444362a1837c5",
+  "working_tree_dirty": true
+}

@@ -1,0 +1,38 @@
+{
+  "profile_version": "ROCM_AMD_DISCOVERY_20261010",
+  "status": "LOCAL_INTEGRATION_CPU_PASS_CLOUD_UNVERIFIED",
+  "expected_platform": "Ubuntu 22.04, ROCm 7.2.3, Python 3.12 (USER_REPORTED_NOT_VERIFIED)",
+  "claimed_vram_gb": 192,
+  "expected_gpu_name": null,
+  "expected_gfx_target": null,
+  "expected_torch_version": null,
+  "require_torch_hip": true,
+  "never_install_cuda_wheels": true,
+  "base_installation_read_only": true,
+  "persistent_path_candidate": "/mnt/workspace",
+  "persistent_capacity_bytes": null,
+  "approved_training": false,
+  "allow_model_download": false,
+  "allow_cloud_training": false,
+  "gpu_preflight_only_after_user_action": true,
+  "visual_test": {
+    "synthetic_resolution": 64,
+    "yolo_test_resolution": 640,
+    "model_asset_sha256": "34ce40cd05168ff0cd637ee2e9d0dc7657dee1da47321be3bc37ad60492818b4"
+  },
+  "minimum_hardware_evidence": [
+    "rocminfo gfx target",
+    "torch.version.hip",
+    "torch.cuda.get_device_properties",
+    "forward/backward finite",
+    "persistent_disk and restart policy",
+    "checkpoint external readback"
+  ],
+  "modelscope_hours_remaining": "USER_SCREENSHOT_ESTIMATE_100_NOT_VERIFIED_BY_TOOL",
+  "primary_platform": "MODELSCOPE_AMD_FOR_VISION_AND_QIORA",
+  "t4_role": "OPTIONAL_BACKUP_UNMODIFIED_BRANCH",
+  "minimum_free_parent_load_GiB": 32,
+  "initial_free_disk_plan_GiB": 60,
+  "formal_backend_status": "COMPACT_V3_ROCM_NOT_INTEGRATED",
+  "READY_FOR_GPU_TRAINING": false
+}

@@ -1,0 +1,192 @@
+{
+  "status": "ACTUAL_LOCAL_PARENT_CHECKPOINT_YOLO_SHA_READBACK_PASS",
+  "parent_files": [
+    {
+      "destination": "config.json",
+      "bytes": 728,
+      "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "generation_config.json",
+      "bytes": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "model-00001-of-00005.safetensors",
+      "bytes": 3996250744,
+      "sha256": "6b8a6b34b36b2c37045ea13bb3c684705f78d37fac03f812a6e172f426b3512c",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "model-00002-of-00005.safetensors",
+      "bytes": 3993160032,
+      "sha256": "a4a4ad5dae26fc6d082846271ebee5133563d3493b369344bd6347b0f1178c38",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "model-00003-of-00005.safetensors",
+      "bytes": 3959604768,
+      "sha256": "db5e86b3ec8166e19629469765c7070f6c2cf119c72bda71aea000c98ac97c2a",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "model-00004-of-00005.safetensors",
+      "bytes": 3187841392,
+      "sha256": "d7d05d63722553cdc2c6d21c4f53c909a9b85cfed7da71026c1ed77560091620",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "model-00005-of-00005.safetensors",
+      "bytes": 1244659840,
+      "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "model.safetensors.index.json",
+      "bytes": 32878,
+      "sha256": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "README.md",
+      "bytes": 16660,
+      "sha256": "0f36caaff9c2516411a7738db384606263ba653c1e63e61d72f511606164d5a6",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "tokenizer_config.json",
+      "bytes": 9732,
+      "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "destination": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    }
+  ],
+  "parent_bytes": 16397459696,
+  "checkpoint_files": [
+    {
+      "stage": "D_CONTROL",
+      "file": "step_000008.pt",
+      "bytes": 39680803,
+      "SHA256": "cf854b884986d0d7f7b0ccaf9a0da6934ebfabd5b33e29ebab26807daa6e6f45",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "D_CONTROL",
+      "file": "step_000016.pt",
+      "bytes": 39680803,
+      "SHA256": "aa75a615082f5b8ad406b85918d97bea1576956ce9d959237cf113969bed12f7",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "D_MAIN",
+      "file": "step_000008.pt",
+      "bytes": 39687907,
+      "SHA256": "adfcce666bf0a462d00301131553211b412a8d9c12b443413dc4e7b1a2c3a03f",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "D_MAIN",
+      "file": "step_000016.pt",
+      "bytes": 39687907,
+      "SHA256": "95aa8fd2f986bd6fd9385f64d396797b1d5cfaf3baf3776eb7a6d0c85409c2df",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "D_MAIN",
+      "file": "step_000032.pt",
+      "bytes": 39687907,
+      "SHA256": "a440e621816719513d471a2a2400059cc7f86f5467df877e7fec3a6701eb7616",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "D_MAIN",
+      "file": "step_000064.pt",
+      "bytes": 39687907,
+      "SHA256": "41f7d89673c269900422e609aac2baca3b060f1f10b60b257b02e180e328a63d",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "E_CONTROL",
+      "file": "step_000008.pt",
+      "bytes": 39680995,
+      "SHA256": "9066f3471af6ef8d5f7fd71a7f17af236ef4521d1c868f34073c14205566f209",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "E_CONTROL",
+      "file": "step_000016.pt",
+      "bytes": 39680995,
+      "SHA256": "7e2b0c16badf4e2a1dc32e12fd65a862b9f8828523bf51c9c52355f276bdc398",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "E_MAIN",
+      "file": "step_000008.pt",
+      "bytes": 39691363,
+      "SHA256": "7f049e4159b5656f645b007f218c6da31248ab688b14f5c645880e10d40827cf",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "E_MAIN",
+      "file": "step_000016.pt",
+      "bytes": 39691363,
+      "SHA256": "ca39f79b10c63fb8dabb19f5ce503f36f7e79958fc036c3c695917ffe3ed2c93",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "E_MAIN",
+      "file": "step_000032.pt",
+      "bytes": 39691363,
+      "SHA256": "8e03b8d4660d79a7dca16b2ae176bc9eea9331e3cf1b87e12f371bc2aa853cef",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "E_MAIN",
+      "file": "step_000064.pt",
+      "bytes": 39691363,
+      "SHA256": "7c06511a882fa423e4057e8fda969940dbc84015814360a1f5ff61ceed80a733",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    },
+    {
+      "stage": "G0",
+      "file": "step_000000.pt",
+      "bytes": 24280691,
+      "SHA256": "b520322ca9ab536d0aed078d67bac3a75dd5c4e389a69f405534dff3f89ae031",
+      "status": "ACTUAL_LOCAL_READBACK_PASS"
+    }
+  ],
+  "yolo": {
+    "bytes": 5445914,
+    "SHA256": "34ce40cd05168ff0cd637ee2e9d0dc7657dee1da47321be3bc37ad60492818b4"
+  },
+  "new_model_load": false,
+  "cloud_connections": 0,
+  "new_optimizer_updates": 0,
+  "TEST2_opened": false,
+  "seconds": 18.975789999996778
+}

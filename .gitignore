@@ -21,3 +21,7 @@ logs/
 *.jpg
 *.jpeg
 *.png
+
+.venv-rocm/
+reports_private/
+*.jsonl

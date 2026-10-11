@@ -1,0 +1,90 @@
+{
+  "status": "ZIP_CRC_AND_17_MANIFEST_FILES_SHA_PASS",
+  "files": [
+    {
+      "path": "AMD_ROCM_MIGRATION_PLAN.md",
+      "SHA256": "8fdbb4c1f0f6d5cbcc153032c3d518a49d7d88c5eade811280b69405358169c5",
+      "bytes": 6721
+    },
+    {
+      "path": "CLOUD_AGENT_HANDOFF.md",
+      "SHA256": "c7162e549fcb7bab9362eaa2cd2dd9aa3884cfe9f9cba2a17cc5bd66c267290c",
+      "bytes": 5125
+    },
+    {
+      "path": "CLOUD_ASSET_TRANSFER.md",
+      "SHA256": "fd4ab13e88e98e490512fdc17ed6dd8971e19741a495abdcb175202f6b9cc0b8",
+      "bytes": 4721
+    },
+    {
+      "path": "CLOUD_GPU_RESOURCE_REVIEW.md",
+      "SHA256": "196447a26021caa7520d4cc11146cf939212fffed33ff4e39e3336742b88d18a",
+      "bytes": 6087
+    },
+    {
+      "path": "CODEX_LOCAL_INTEGRATION_TASK.md",
+      "SHA256": "49a911b12b06528633b04b06b2b527826f9ace3c0211c7c18b3be526b676c0aa",
+      "bytes": 2140
+    },
+    {
+      "path": "GPU_EXPERIMENT_PLAN.md",
+      "SHA256": "f2490f2caadce8d21c0b978703094d00209700bbbc992acb273a7f9b686de835",
+      "bytes": 4216
+    },
+    {
+      "path": "README.md",
+      "SHA256": "c963b8eb179dc4b4d578ebf83d28bb99ee5044bc8906c8f3c91c383bb76b3039",
+      "bytes": 2379
+    },
+    {
+      "path": "VERIFICATION_REPORT.md",
+      "SHA256": "ccb24bb3cc3a0c234079713401b0153bd2177f9238417ac4576369dbf20fee28",
+      "bytes": 2014
+    },
+    {
+      "path": "configs/amd_rocm_profile.json",
+      "SHA256": "a6ee700e9599af43e99b299839c5cb15430e8e7b0aa6cd49580d44f40e258a1f",
+      "bytes": 1104
+    },
+    {
+      "path": "configs/research_asset_manifest_template.json",
+      "SHA256": "25a3078979e2e166666166dbe0e28f392a921cdf3330e1c9c9076d5637e112a1",
+      "bytes": 392
+    },
+    {
+      "path": "docs/LOCAL_VISUAL_CPU_SMOKE.json",
+      "SHA256": "06092b623311dfa283fe222ee9a0879564b14c8d32ebf594ef36380f3d28ece9",
+      "bytes": 216
+    },
+    {
+      "path": "scripts/amd_rocm_probe.py",
+      "SHA256": "594a826456a7cac9111b4289a5676ce2c0a7d0cd9190f5a1efb4d479f06ee380",
+      "bytes": 4491
+    },
+    {
+      "path": "scripts/amd_visual_smoke.py",
+      "SHA256": "3c837b0652fc8f362c018d17088c28691e31b5ca3150326b252b9740f129269e",
+      "bytes": 2451
+    },
+    {
+      "path": "scripts/asset_verify.py",
+      "SHA256": "57e714238aa08ef3107b8a8b33065e093a1921e27a186118b570e12d111c8c5f",
+      "bytes": 2077
+    },
+    {
+      "path": "scripts/prepublish_guard.py",
+      "SHA256": "7dc5966ae38556a48521ee38f90953bcdf048cbcb37be951e9b734c5e8fc29a7",
+      "bytes": 1939
+    },
+    {
+      "path": "scripts/rocm_env_isolated.sh",
+      "SHA256": "02baa7e63f681114294e0e12c731cc7d9cc2c5037e1b0e853ed2d1c1a2b49ca6",
+      "bytes": 842
+    },
+    {
+      "path": "tests/test_cloud_prep.py",
+      "SHA256": "1e06539a0ebd3edc2ecc333ef2d63566322e81a77dbb2728454307919788ba64",
+      "bytes": 1907
+    }
+  ]
+}

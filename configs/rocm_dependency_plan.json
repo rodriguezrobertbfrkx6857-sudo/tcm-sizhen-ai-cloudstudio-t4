@@ -1,0 +1,24 @@
+{
+  "status": "PLAN_NOT_INSTALLED_NOT_CLOUD_LOCKFILE",
+  "base_Torch": "REUSE_PREINSTALLED_HIP_BUILD",
+  "torchvision": "MATCH_PREINSTALLED_HIP_TORCH_AND_TEST_OPS",
+  "cloud_Python": "USER_REPORTED_3_12_NOT_VERIFIED",
+  "install_commands_included": false,
+  "CUDA_wheels_allowed": false,
+  "optional_dependencies": [
+    "transformers",
+    "peft",
+    "accelerate",
+    "safetensors",
+    "ultralytics",
+    "Pillow",
+    "numpy"
+  ],
+  "initial_attention": [
+    "eager",
+    "sdpa"
+  ],
+  "default_precision": "fp32",
+  "bf16": "ONLY_AFTER_ACTUAL_DEVICE_NUMERIC_PASS",
+  "optimized_kernels": "OFF_UNTIL_SEPARATE_PROOF"
+}

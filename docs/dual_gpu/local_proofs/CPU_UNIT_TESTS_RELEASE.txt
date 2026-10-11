@@ -1,0 +1,28 @@
+test_asset_hash (test_cloud_prep.Tests.test_asset_hash) ... ok
+test_path_escape (test_cloud_prep.Tests.test_path_escape) ... ok
+test_prepublication_guard_no_repo (test_cloud_prep.Tests.test_prepublication_guard_no_repo) ... ok
+test_profile_no_training (test_cloud_prep.Tests.test_profile_no_training) ... ok
+test_rocm_probe_cpu_safe (test_cloud_prep.Tests.test_rocm_probe_cpu_safe) ... ok
+test_SHA_and_missing_assets (test_contracts.Contracts.test_SHA_and_missing_assets) ... ok
+test_asset_path_escape (test_contracts.Contracts.test_asset_path_escape) ... ok
+test_paths (test_contracts.Contracts.test_paths) ... ok
+test_publish_scan_detects_credentials_without_outputting_values (test_contracts.Contracts.test_publish_scan_detects_credentials_without_outputting_values) ... ok
+test_yolo_dataset_no_download_or_escape (test_contracts.Contracts.test_yolo_dataset_no_download_or_escape) ... ok
+test_yolo_untrusted_SHA_rejected_before_deserialization (test_contracts.Contracts.test_yolo_untrusted_SHA_rejected_before_deserialization) ... ok
+test_full_model_loader_rejects_before_touching_assets (test_dual_gpu_safety.Safety.test_full_model_loader_rejects_before_touching_assets) ... ok
+test_hip_guard_rejects_nvidia_and_absent_confirmation (test_dual_gpu_safety.Safety.test_hip_guard_rejects_nvidia_and_absent_confirmation) ... ok
+test_local_visual_is_repeatable (test_dual_gpu_safety.Safety.test_local_visual_is_repeatable) ... ok
+test_missing_manifest_cli_saves_structured_failure (test_dual_gpu_safety.Safety.test_missing_manifest_cli_saves_structured_failure) ... ok
+test_missing_size_invalid_hash_duplicate_and_absolute (test_dual_gpu_safety.Safety.test_missing_size_invalid_hash_duplicate_and_absolute) ... ok
+test_numeric_failure_not_reported_as_success (test_dual_gpu_safety.Safety.test_numeric_failure_not_reported_as_success) ... ok
+test_publish_guard_blocks_large_and_weights (test_dual_gpu_safety.Safety.test_publish_guard_blocks_large_and_weights) ... ok
+test_publish_guard_catches_untracked_and_index_secret (test_dual_gpu_safety.Safety.test_publish_guard_catches_untracked_and_index_secret) ... ok
+test_report_roundtrip_no_overwrite_and_failure_saved (test_dual_gpu_safety.Safety.test_report_roundtrip_no_overwrite_and_failure_saved) ... ok
+test_symlink_parent_rejected (test_dual_gpu_safety.Safety.test_symlink_parent_rejected) ... ok
+test_visual_nms_backend_is_exercised (test_dual_gpu_safety.Safety.test_visual_nms_backend_is_exercised) ... ok
+test_yolo_unknown_hash_rejected_before_import (test_dual_gpu_safety.Safety.test_yolo_unknown_hash_rejected_before_import) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.730s
+
+OK

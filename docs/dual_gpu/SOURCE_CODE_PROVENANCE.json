@@ -1,0 +1,41 @@
+{
+  "vendor_files_unmodified": true,
+  "files": [
+    {
+      "source": "models/qiora/__init__.py",
+      "destination": "qiora_rocm/vendor/__init__.py",
+      "SHA256": "eb613bc23531f29ae0438d0ae47269c3d64ca769e4b7518a79af321861cfffa3"
+    },
+    {
+      "source": "models/qiora/config.py",
+      "destination": "qiora_rocm/vendor/config.py",
+      "SHA256": "8005cef93c8dd059469a5f6fe083189ac8a929d21394114ee8c0bd193d2afa8c"
+    },
+    {
+      "source": "models/qiora/qiora_pro.py",
+      "destination": "qiora_rocm/vendor/qiora_pro.py",
+      "SHA256": "7a513b4b34c09267b2072baec8e9c7584f31153734a175c692cffb45469477fa"
+    },
+    {
+      "source": "models/qiora/checkpoint.py",
+      "destination": "qiora_rocm/vendor/checkpoint.py",
+      "SHA256": "d825d88efd71c98188171053e477a7322d34dfbfc15bb5990ff099029b8bf38e"
+    },
+    {
+      "source": "models/qiora/capability.py",
+      "destination": "qiora_rocm/vendor/capability.py",
+      "SHA256": "6828763447c3e32e558fda67cd207ca420d0c712b1c0b23e0867774b667c3086"
+    },
+    {
+      "source": "models/qiora/router/features.py",
+      "destination": "qiora_rocm/vendor/router/features.py",
+      "SHA256": "c2c8e7291ef923258367f1a3b1391ad72fd57142cd3332c7d35851b91b8fdaad"
+    },
+    {
+      "source": "models/qiora/router/sequence_router.py",
+      "destination": "qiora_rocm/vendor/router/sequence_router.py",
+      "SHA256": "6897151295335b1fca494106c719ca5bb7e7e2010ab4ce47a5db1fb820f5cede"
+    }
+  ],
+  "source_zip_SHA256": "f0264b90352d35c27d248d523e3c7e604a2f51f7fe92d9f8579a5c843aa4832d"
+}

@@ -1,0 +1,27 @@
+{
+  "device": "cpu",
+  "torch": "2.9.1+cpu",
+  "hip": null,
+  "training": false,
+  "downloads": false,
+  "seed": 20261011,
+  "model_kind": "synthetic_convnet",
+  "synthetic_mean": 0.13007208704948425,
+  "synthetic_output": [
+    0.0,
+    0.0,
+    0.3242037892341614,
+    0.19608455896377563
+  ],
+  "status": "PASS",
+  "seconds": 0.0033727999980328605,
+  "timestamp_utc": "2026-10-11T04:40:35.318092+00:00",
+  "run_id": "LOCAL_OR_CLOUD_PROBE_f835a97938934ad383f855f3f97e2450",
+  "optimizer_updates": 0,
+  "model_downloads": false,
+  "cloud_training": false,
+  "entrypoint_SHA256": "743df6487cd685b0543954dba51ac98ab5f4ee8b49799806bd048e74e9270486",
+  "report_writer_SHA256": "eda8d6ed2e5234f8267b2bc2ded2a60359c3bb0c51eb99356414ba056677a906",
+  "git_commit": "3374e235077b5f02d4de5bcb1c2444362a1837c5",
+  "working_tree_dirty": true
+}

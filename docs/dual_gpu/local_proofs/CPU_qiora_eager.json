@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "measurement": "TINY_RANDOM_QWEN3_NATIVE_QIORA_STRUCTURE_NOT_8B",
+  "hardware": {
+    "device": "LOCAL_CPU_NO_ROCM_VERIFICATION"
+  },
+  "attention": "eager",
+  "precision": "fp32",
+  "torch": "2.9.1+cpu",
+  "transformers": "5.16.1",
+  "peft": "0.21.2",
+  "phases": [
+    {
+      "phase": "T1",
+      "loss": 4.216024875640869,
+      "gradient_norm": 0.2791427671909332,
+      "frozen_parameter_gradients_absent": true,
+      "active_mask": [
+        true,
+        true,
+        false
+      ],
+      "trainable_parameters": 224
+    },
+    {
+      "phase": "T2",
+      "loss": 4.216024875640869,
+      "gradient_norm": 0.33475586771965027,
+      "frozen_parameter_gradients_absent": true,
+      "active_mask": [
+        true,
+        true,
+        false
+      ],
+      "trainable_parameters": 224
+    }
+  ],
+  "router_weights": [
+    [
+      0.5678495168685913,
+      0.43215054273605347,
+      0.0
+    ]
+  ],
+  "router_gradient_pass": true,
+  "case_active": false,
+  "semantic_enabled": false,
+  "parent_parameters_unchanged": true,
+  "restore_logits_exact": true,
+  "python_torch_rng_state_present": true,
+  "CPU_RNG_restored": true,
+  "gpu_rng_restore_tested": false,
+  "optimizer_state_empty_no_updates": true,
+  "synthetic_checkpoint_retained": false,
+  "seconds": 0.2610227999975905,
+  "peak_allocated_bytes": null,
+  "timestamp_utc": "2026-10-11T04:40:49.924155+00:00",
+  "run_id": "LOCAL_OR_CLOUD_PROBE_2af21c5b7f2748e0876cae5bf4b74ad4",
+  "optimizer_updates": 0,
+  "model_downloads": false,
+  "cloud_training": false,
+  "entrypoint_SHA256": "7ac1a3e0494321cc5016319b4d046c8239f4b676e03713a6a53d2e823bfc99bd",
+  "report_writer_SHA256": "eda8d6ed2e5234f8267b2bc2ded2a60359c3bb0c51eb99356414ba056677a906",
+  "git_commit": "3374e235077b5f02d4de5bcb1c2444362a1837c5",
+  "working_tree_dirty": true
+}

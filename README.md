@@ -1,3 +1,28 @@
+# Qiora / TongueAI · AMD ROCm 主环境本地整合
+
+本分支准备在 AMD 上完成舌象视觉、Qiora 语言模型可行性、评测与备份。腾讯云 T4 保留为独立备用分支，不要求两云同时运行。
+
+**状态：CLOUD_GPU_PREFLIGHT_REQUIRES_USER_ACTION。新 AMD 分支仅在 Windows 准备，尚未批准推送；云端未执行、无新优化器更新，Pro未通过初版验收。**
+
+- [AMD 简洁云端操作单](docs/dual_gpu/CLOUD_QUICKSTART.md)
+- [真实状态、任务与语言模型可行性设计](docs/dual_gpu/AMD_TASK_PLAN.md)
+- [源代码及原生 Qiora 复制 SHA](docs/dual_gpu/SOURCE_CODE_PROVENANCE.json)
+- [免责声明](DISCLAIMER.md) / [许可说明](LICENSE_NOTICE.md)
+
+默认不安装依赖、不下载权重、不启动训练。AMD 的 `scripts/bootstrap.sh` 已禁用 CUDA 安装；只读探测使用 `python3 scripts/amd_rocm_probe.py --workspace /mnt/workspace --out outputs/01_inventory.json`。短小 GPU 测试及模型传输需用户先批准。
+
+本地完整 CPU 测试（已有 torch、torchvision、transformers、peft 等环境时）：
+
+```bash
+python scripts/validate_local.py --out /path/to/new_cpu_validation_run
+```
+
+微型随机 Qwen3 使用复制的原生 Domain/Evidence LoRA + Sequence-level Router，只验证工程结构；不能当成 Qiora 8B、已训练专家或临床能力证明。Case仍inactive，Semantic未启用。母体14文件16,397,459,696字节；权重与数据不在Git，TEST2不在本分支。
+
+**T4用户请另行克隆原 `codex/cloudstudio-t4-20261011` 分支。** 下文为原视觉迁移包介绍及历史 CPU 证据，其中 T4 环境安装命令仅适用于原分支。
+
+---
+
 # TongueAI · 舌象视觉研究与 Cloud Studio T4 部署
 
 CM-Sizhen-AI / TongueHerb（岐黄智镜）的独立视觉组件部署准备版本，面向 NVIDIA T4 16GB 的环境检查、模型加载、推理和评测复现。公开工程代码与验证记录；不包含原始图像、医疗记录、模型权重或访问凭据。

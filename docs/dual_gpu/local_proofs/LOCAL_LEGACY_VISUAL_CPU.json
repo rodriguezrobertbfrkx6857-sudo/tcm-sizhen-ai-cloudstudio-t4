@@ -1,0 +1,30 @@
+{
+  "class_order": [
+    "white_coating",
+    "yellow_coating"
+  ],
+  "probabilities": [
+    0.9889402985572815,
+    0.01105966791510582
+  ],
+  "scope": "SOURCE_LIMITED_RESEARCH_COMPONENT_NOT_DIAGNOSIS",
+  "pipeline": "G1_FULL_FRAME_AND_ROI_SEPARATE_NO_ROI_CROP_FEEDBACK",
+  "status": "PASS",
+  "device": "cpu",
+  "mask_pixels": 0,
+  "mask_shape": [
+    384,
+    384
+  ],
+  "input_kind": "SYNTHETIC_SOLID_COLOR_NOT_PATIENT_DATA",
+  "clinical_validation": false,
+  "timestamp_utc": "2026-10-11T04:42:07.037572+00:00",
+  "run_id": "LOCAL_OR_CLOUD_PROBE_58990e6a217e4ce5a202f4aeab02ef57",
+  "optimizer_updates": 0,
+  "model_downloads": false,
+  "cloud_training": false,
+  "entrypoint_SHA256": "0b03053f129400dad91de68b4f68d70e3d6faa4d47640e3828a6caaa8525d319",
+  "report_writer_SHA256": "eda8d6ed2e5234f8267b2bc2ded2a60359c3bb0c51eb99356414ba056677a906",
+  "git_commit": "3374e235077b5f02d4de5bcb1c2444362a1837c5",
+  "working_tree_dirty": true
+}
