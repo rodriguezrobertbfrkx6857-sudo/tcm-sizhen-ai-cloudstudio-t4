@@ -1,5 +1,7 @@
 # 本地真实项目审查与迁移范围（2026-10-11）
 
+公开发布补充：本仓库首次以 private 方式建立，随后按用户明确指令转为 public，补充 README、DISCLAIMER.md 和 LICENSE_NOTICE.md，并重新核验发布文件及历史。下文私有仓库描述保留为初次准备时的历史记录；权重、数据与凭据仍不公开，科学验证结果不因可见性调整而改变。
+
 项目实际名称为TCM-Sizhen-AI，用户称CM-Sizhen-AI/TongueAI。原工作树在master（b1d7dba），没有Git remote，存在大量已有未提交改动。此迁移使用独立目录和私有仓库，原工作树不checkout、不reset、不整体add；原源码、权重、实验报告保持原样。
 
 真实注册表中舌诊基础G1 A0冻结复用SHA b715351507ebc6a1000ed4551e02622f37b5e9cac18bce2af3313e17cb3923b3；R1-M分割SHA 68cd4aa8f3813ec306ad5e1d6c02b3077a1fe8f599401b5776e4c70d0184a32e。全部5个必要资产本阶段本地SHA核验通过。旧Windows加载器有绝对路径、历史manifest和CPU-only约束；新增移植层严格加载相同tensor、保留checkpoint身份，数值是否一致以ACTUAL_CPU_PARITY.json为准。

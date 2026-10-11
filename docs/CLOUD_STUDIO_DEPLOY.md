@@ -4,7 +4,7 @@
 
 由用户在腾讯云选择高性能 GPU 工作空间，核实实际设备、计费规则和存储持久性。官方文档列举通常为 T4、16GB 显存的规格，但实际分配必须用 nvidia-smi 核验，不能凭套餐名认为已拿到 T4。本阶段未开通或操作腾讯云实例。
 
-使用 GitHub 私有仓库授权或平台的 GitHub 连接；不要把个人访问 token 写入仓库、克隆 URL 或终端命令。工作空间可能在停止/重建后丢失临时文件，权重与新结果另存持久存储。
+本代码仓库按用户授权公开，可以直接克隆，不需要个人访问 token。权重和数据仍需另行授权并使用独立传输通路；不要把凭据写入仓库、克隆 URL 或终端命令。工作空间可能在停止/重建后丢失临时文件，权重与新结果另存持久存储。使用前请阅读根目录 DISCLAIMER.md 和 LICENSE_NOTICE.md。
 
 ```bash
 git clone --branch codex/cloudstudio-t4-20261011 https://github.com/rodriguezrobertbfrkx6857-sudo/tcm-sizhen-ai-cloudstudio-t4.git

@@ -1,6 +1,21 @@
-# TongueAI · Cloud Studio T4 迁移包
+# TongueAI · 舌象视觉研究与 Cloud Studio T4 部署
 
-CM-Sizhen-AI / TongueHerb 的独立视觉组件部署准备版本。私有代码仓库；不包含原始图像、医疗记录、模型权重或访问凭据。
+CM-Sizhen-AI / TongueHerb（岐黄智镜）的独立视觉组件部署准备版本，面向 NVIDIA T4 16GB 的环境检查、模型加载、推理和评测复现。公开工程代码与验证记录；不包含原始图像、医疗记录、模型权重或访问凭据。
+
+> **研究用途：尚未完成临床验证，不可用于诊断、处方或治疗决策。输出可能错误；“健康舌”只是来源数据的类别名称，不表示医学上的健康结论。请先阅读 [免责声明](DISCLAIMER.md) 和 [许可说明](LICENSE_NOTICE.md)。**
+
+## 实际功能与验证状态
+
+| 组件 | 功能 | 当前状态 |
+|---|---|---|
+| YOLO11n（首选） | 六类舌象外观检测及可视化 | 本地 CPU 原始输出一致性通过；T4 CUDA 待验证 |
+| DINOv2-small 旧参考组件 | 白苔 / 黄苔二分类 | 本地 CPU 与原组件输出一致；云端待验证 |
+| ResNet18-UNet 旧参考组件 | 舌体区域 mask | 本地 CPU 与原组件输出一致；不作病灶判断 |
+| 工程工具 | 资源检查、SHA 核验、DEV 评测、合成输入保存恢复测试 | 本地合同测试 6 项通过；真实 T4 测试待执行 |
+
+六类来源标签为健康舌、红舌、瘦舌、白苔舌、黄苔舌、黑苔舌。当前 YOLO 来源训练记录为 TRAIN 4,222 / VAL 896，历史来源 VAL mAP50 0.5365、mAP50–95 0.4896。**这些不是本次云端复测成绩，也不是患者独立或临床验证结果。** 见 [真实训练摘要](docs/CURRENT_YOLO_TRAINING_SUMMARY.json)。
+
+## 项目范围
 
 首选入口是当前网站使用的 **YOLO11n 六类舌象模型**，其640像素、conf0.25、IoU0.5条件保持不变。另提供旧 DINOv2-small 舌苔白/黄二分类、ResNet18-UNet 舌体 mask 的可移植加载、推理、DEV 评测及两步合成输入训练测试。保留原模型 SHA 与来源绑定，不重新训练原模型。舌体分割和全图分类分别运行，本包未重建网站、四诊合参或对话模型。Pro/Max 训练入口没有纳入迁移包。
 
@@ -14,7 +29,16 @@ CM-Sizhen-AI / TongueHerb 的独立视觉组件部署准备版本。私有代码
 - `cloudstudio_tongue/`：路径无关加载器与命令入口。
 - `reference/train_roi_legacy.py`：原 ROI 训练源码，只供追溯；不能用来绕过原数据/授权 Gate。
 
-快速查看：
+## 快速开始
+
+公开代码可直接克隆，权重与数据另行授权、单独迁移：
+
+```bash
+git clone --branch codex/cloudstudio-t4-20261011 https://github.com/rodriguezrobertbfrkx6857-sudo/tcm-sizhen-ai-cloudstudio-t4.git
+cd tcm-sizhen-ai-cloudstudio-t4
+```
+
+环境检查：
 ```bash
 bash scripts/bootstrap.sh
 source .venv/bin/activate
@@ -25,4 +49,12 @@ python -m unittest discover -s tests -v
 
 当前YOLO模型另需 `pip install -r requirements-yolo.txt`，资产清单是 `configs/yolo_assets_manifest.json`。只迁移这一份约5.19MiB的权重就可验证当前六类组件，不必先迁移225MiB的旧组件资产。
 
-本包的模型只提供来源受限的研究视觉输出，不能据此判断证候、疾病或处方。未知/未标注类别不转成阴性。现有模型许可用途保持为非商业研究；迁移代码不会扩大底层数据或权重许可。
+## 资源与研究边界
+
+目标环境为 Linux x86_64、Python 3.11、PyTorch 2.8.0 / CUDA 12.6。T4 使用 FP32 或 FP16，不采用 BF16。建议至少 30 GiB 存储；预检要求 20 GiB 空闲磁盘与 6 GiB 可用显存。推理约 2–4 GiB、小规模视觉训练约 4–8 GiB **仅为规划估计，尚非 T4 实测值**。
+
+本次没有正式视觉训练或 Pro/Max 训练，没有改动原模型与历史结果。两步合成标签更新只验证工程链路，不表示医学能力提升。本包的模型只提供来源受限的研究视觉输出，不能据此判断证候、疾病或处方。未知/未标注类别不转成阴性。
+
+## 隐私、许可与贡献
+
+欢迎提交不含隐私的工程问题和复现记录。Issue、PR 和日志中请勿提交舌像、病例、身份信息、API Key、SSH 私钥或账户凭据。现有模型许可用途保持为非商业研究；公开迁移代码不会扩大底层数据或权重许可。仓库当前未授予统一开源许可，第三方内容分别遵循其原有许可，具体见 [LICENSE_NOTICE.md](LICENSE_NOTICE.md)。

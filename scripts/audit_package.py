@@ -3,7 +3,7 @@ import argparse,hashlib,json,re,subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 ALLOW={'cloudstudio_tongue','configs','docs','reference','scripts','tests'}
-TOP={'.gitignore','README.md','requirements.txt','requirements-cu126.txt','requirements-yolo.txt','CODE_MANIFEST.json','SHA256SUMS'}
+TOP={'.gitignore','README.md','DISCLAIMER.md','LICENSE_NOTICE.md','requirements.txt','requirements-cu126.txt','requirements-yolo.txt','CODE_MANIFEST.json','SHA256SUMS'}
 PATTERNS=[re.compile(r'-----BEGIN (?:OPENSSH |RSA |EC |DSA )?PRIVATE KEY-----'),re.compile(r'(?:ghp_|gho_|github_pat_|sk-proj-)[A-Za-z0-9_\-]{20,}'),re.compile(r'AKIA[A-Z0-9]{16}'),re.compile(r'(?i)(?:api_key|secret_key|access_token|password)\s*[:=]\s*[\x22\x27][A-Za-z0-9_\-]{20,}')]
 
 def candidates():
